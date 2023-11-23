@@ -1,0 +1,15 @@
+{
+  "name": "chai-aur-backend",
+  "version": "1.0.0",
+  "description": "a project learn from chai aur code youtube channel ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "dheerajCodes",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
