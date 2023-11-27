@@ -1,3 +1,8 @@
+/*
+1. Make a function to handle the async request 
+2. 
+*/
+
 const asyncHandler = (requestHanler) => {
   return (req, res, next) => {
     Promise.resolve(requestHanler(req, res, next)).catch((err) => {
